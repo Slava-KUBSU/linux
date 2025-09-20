@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     string line;
-
+    setlocale(LC_ALL, "Rus");
     while (true)
     {
         cout << "kubsh";
