@@ -1,23 +1,31 @@
 
 #include <iostream>
 #include <string>
-
+using namespace std;
 int main()
 {
-    //Flush after every std::cout / std::cerr
+    string line;
 
-    std::cout << std::unitbuf;
+    while (true)
+    {
+        cout << "kubsh";
 
-    std::cerr << std::unitbuf;
+        if (!getline(cin, line))
+        {
+            cout << "выход ctrl+d";
+            break;
+        }
 
-    std::cout << "$";
+        if(line=='/q') 
+        {
+          cout << "выход по команде /q";
+           break;
+        }
 
-    std::string input;
+        cout << line << endl;
 
-    std::getline(std::cin, input);
-
-    std::cout << input << ": command not found" << std::endl;
-
+    }
+    return 0;
 }
 
 
