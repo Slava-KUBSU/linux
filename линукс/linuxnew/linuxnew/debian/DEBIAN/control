@@ -1,0 +1,8 @@
+Package: kubsh
+Version: 1.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Your Name <your.email@example.com>
+Description: Simple shell for kubsu
+ A minimal shell implementation.

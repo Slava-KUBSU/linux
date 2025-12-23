@@ -1,0 +1,7 @@
+Package: kubsh
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Test User <test@example.com>
+Description: Custom Shell with VFS

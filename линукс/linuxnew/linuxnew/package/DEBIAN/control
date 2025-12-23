@@ -1,0 +1,7 @@
+Package: kubsh
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: amd64
+Maintainer: Test <test@example.com>
+Description: Kubernetes Shell
